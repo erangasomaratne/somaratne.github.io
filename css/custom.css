@@ -1,0 +1,79 @@
+html{
+	/*background-image:url(../img/full.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;*/
+	background: #6B949E;
+	font-family: 'Roboto Mono', monospace;
+}
+ul{
+	list-style-type: none;
+	text-align: right;
+	margin-right: 30px;
+	padding: 0px 150px;
+}
+li{
+	display: inline-block;
+
+}
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+h2{
+	color:rgb(85,0,36);
+	text-align:center;
+	border:5px solid #fbc5dc;
+	cursor: pointer;
+}
+p{
+	color:pink;
+}
+section{
+	padding: 0px 150px;
+}
+section p{
+	color:green;
+	text-align: center;
+	padding: 0px 150px;
+
+}
+.rimashi{
+	width:550px;
+	height: 600px;
+}
+
+footer p{
+	padding: 0px 150px;
+	color:crimson;
+	font-weight: bold;
+	text-align: center;
+}
+.container{
+	display: flex;
+}
+img{
+	width:450px;
+	height: 350px;
+}
+.btn{
+	margin-top: 30px;
+	background:crimson;
+	border:none;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	animation-name: move;
+	animation-duration: 4s;	
+	animation-fill-mode: both;
+	animation-delay: 3s;
+	//animation-iteration-count: infinite;
+}
+
+@keyframes move{
+	from{transform:translateX(0px);}
+	to{transform:translateX(1200px);}
+}
